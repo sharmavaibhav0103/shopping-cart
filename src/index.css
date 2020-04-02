@@ -1,0 +1,49 @@
+body {
+  background-color: lightgrey;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.hov{
+  text-decoration: none !important;
+}
+.hov:hover{
+  color: #0275d8 !important;
+}
+.img-contain{
+  background-image: url("https://www.apple.com/v/home/d/images/heroes/iphone-11-pro-spring/hero__dvsxv8smkkgi_large.jpg") !important;
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+}
+.heros{
+  position: absolute;
+  margin-top: 30px !important;
+}
+Productlist{
+  background-color: #000000;
+}
+Productlist{
+  background-color: #000000;
+}
+@media (max-width: 412px){
+  .heros{
+    margin-left: 90px;
+    font-size: 10px !important;
+  }
+}
+@media (min-width: 415px){
+  .heros{
+    transform: translate(30%, 10%);
+  }
+}
