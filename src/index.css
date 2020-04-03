@@ -36,13 +36,12 @@ Productlist{
 Productlist{
   background-color: #000000;
 }
-@media (max-width: 412px){
+@media (max-width: 600px){
   .heros{
-    margin-left: 90px;
     font-size: 10px !important;
   }
 }
-@media (min-width: 415px){
+@media (min-width: 720px){
   .heros{
     transform: translate(30%, 10%);
   }
